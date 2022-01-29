@@ -1,0 +1,4 @@
+**/.gitignore
+!.gitignore
+**/.idea
+**/cmake-build-debug
