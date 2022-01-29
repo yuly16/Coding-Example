@@ -1,0 +1,4 @@
+
+[submodule "Speaker-Diarization"]
+	path = Speaker-Diarization
+	url = https://github.com/yuly16/Speaker-Diarization.git
