@@ -22,7 +22,7 @@ void Produce() {
     cv.notify_all();
     std::cout << "produce \n";
 }
-//这个例子有bug。Consume会出现死等的情况。参考 https://segmentfault.com/a/1190000023816639
+//为了解决example3出现的问题，这里在cv处加上了一个while条件判断
 int main() {
     ready = false;
     std::thread t(Consume);
