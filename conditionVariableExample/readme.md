@@ -49,4 +49,18 @@ the lock and is blocked.
 is True, so consumer consumes data. 
 
 ### 3. example 3
-to be continued...
+If the code is written in this way:
+```c++
+cv.wait(lock);
+```
+`cv` would be blocked and waits to be notified, because no condition is evaluated.
+Therefore, if `cv.notify_all()` happens before `cv.wait(lock)`,
+`cv` will be blocked forever. 
+
+### 4. example 4
+Example 4 fixes the problem of example 3 that 
+`cv` will be blocked forever. The difference of 
+example 3 & 4 is that whether `cv.wait` evaluates
+the condition. If `cv.wait` evaluates a condition,
+everything is ok.
+
