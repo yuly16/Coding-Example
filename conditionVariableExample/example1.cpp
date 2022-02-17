@@ -21,7 +21,7 @@ void waits()
 
 void signals()
 {
-//    std::this_thread::sleep_for(std::chrono::seconds(1));
+    std::this_thread::sleep_for(std::chrono::seconds(5));
 //    {
 //        std::lock_guard<std::mutex> lk(cv_m);
 //        std::cerr << "Notifying...\n";
@@ -35,7 +35,7 @@ void signals()
         i = 1;
         std::cerr << "Notifying again...\n";
     }
-//    cv.notify_all();
+    cv.notify_all();
 }
 
 int main()
