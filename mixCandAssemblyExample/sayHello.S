@@ -1,26 +1,18 @@
-# modified from http://asm.sourceforge.net/howto/hello.html
+global foo
 
-.text                   # section declaration
-    .global foo
+section .text
 
 foo:
+  mov rax, 1        ; write(
+  mov rdi, 1        ;   STDOUT_FILENO,
+  mov rsi, msg      ;   "Hello, world!\n",
+  mov rdx, 1   ;   sizeof("Hello, world!\n")
+  syscall           ; );
 
-# write our string to stdout
+  mov rax, 60       ; exit(
+  mov rdi, 0        ;   EXIT_SUCCESS
+  syscall           ; );
 
-    movl    $len,%edx   # third argument: message length
-    movl    $msg,%ecx   # second argument: pointer to message to write
-    movl    $1,%ebx     # first argument: file handle (stdout)
-    movl    $4,%eax     # system call number (sys_write)
-    int $0x80       # call kernel
-
-# and exit
-
-    movl    $0,%ebx     # first argument: exit code
-    movl    $1,%eax     # system call number (sys_exit)
-    int $0x80       # call kernel
-
-.data                   # section declaration
-
-msg:
-    .ascii  "Hello, world!\n"   # our dear string
-    len = . - msg           # length of our dear string
+section .rodata
+  msg: db "Hello, world!", 10
+  msglen: equ $ - msg
