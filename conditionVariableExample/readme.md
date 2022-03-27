@@ -42,13 +42,13 @@ the lock again.
 This is an example of producer and consumer.
 
 * Consumer runs first. Acquires the lock and evaluates the condition.
-The condition isn't satisfied. Therefore, the consumer releases
+No conditions here. Therefore, the consumer releases
 the lock and is blocked. 
 * Producer runs second. Generates data and wakes consumer up. 
 * Consumer wakes up and evaluates the condition. The condition
 is True, so consumer consumes data. 
-
-### 3. example 3
+* Note: if there is no condition, wait is just used for block!
+### 3. example 3 [https://www.cnblogs.com/haippy/p/3252041.html]
 If the code is written in this way:
 ```c++
 cv.wait(lock);
