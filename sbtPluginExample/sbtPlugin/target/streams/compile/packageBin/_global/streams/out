@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\settings-plugin-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MySBTPlugin$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\classes\MySBTPlugin$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MySBTPlugin$autoImport$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\classes\MySBTPlugin$autoImport$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MySBTPlugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\classes\MySBTPlugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\classes\sbt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt\sbt.autoplugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\classes\sbt\sbt.autoplugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

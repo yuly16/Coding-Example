@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: com.sidewayscoding#settings-plugin;0.1 :: 0.1 :: release :: Sat Jul 02 11:42:42 CEST 2022[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Sat Jul 02 11:42:42 CEST 2022 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to D:\script\tutorial_code\sbtPluginExample\sbtPlugin\target\scala-2.12\sbt-1.0\ivy-0.1.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (22ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published settings-plugin to C:\Users\yuliangyong\.ivy2\local\com.sidewayscoding\settings-plugin\scala_2.12\sbt_1.0\0.1\poms\settings-plugin.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published settings-plugin to C:\Users\yuliangyong\.ivy2\local\com.sidewayscoding\settings-plugin\scala_2.12\sbt_1.0\0.1\jars\settings-plugin.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published settings-plugin to C:\Users\yuliangyong\.ivy2\local\com.sidewayscoding\settings-plugin\scala_2.12\sbt_1.0\0.1\srcs\settings-plugin-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published settings-plugin to C:\Users\yuliangyong\.ivy2\local\com.sidewayscoding\settings-plugin\scala_2.12\sbt_1.0\0.1\docs\settings-plugin-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to C:\Users\yuliangyong\.ivy2\local\com.sidewayscoding\settings-plugin\scala_2.12\sbt_1.0\0.1\ivys\ivy.xml[0m
